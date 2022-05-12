@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from './components/navbar';
 import logo from './logo.svg';
+
 
 function App() {
   return (
-    <h1>Página Principal</h1>
+    <Navbar />
   );
 }
 
